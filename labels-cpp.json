@@ -1,0 +1,236 @@
+{
+    "cwe-119-1": {
+        "cwe-119": [
+            "src\\Internals\\QuotedString.cpp",
+            "test\\QuotedString_ExtractFrom_Tests.cpp"
+        ]
+    },
+    "cwe-119-2": {
+        "cwe-119": [
+            "src\\EbmlElement.cpp"
+        ]
+    },
+    "cwe-119-3": {
+        "cwe-119": [
+            "src\\KaxBlock.cpp"
+        ]
+    },
+    "cwe-119-4": {
+        "cwe-119": [
+            "Source\\C++\\Core\\Ap4SampleEntry.cpp"
+        ]
+    },
+    "cwe-119-5": {
+        "cwe-119": [
+            "src\\jp2image.cpp"
+        ]
+    },
+    "cwe-119-6": {
+        "cwe-119": [
+            "lib\\ofx_preproc.cpp"
+        ]
+    },
+    "cwe-190-1": {
+        "cwe-190": [
+            "src\\webpimage.cpp"
+        ]
+    },
+    "cwe-190-2": {
+        "cwe-190": [
+            "dcraw\\dcraw.c",
+            "internal\\dcraw_common.cpp"
+        ]
+    },
+    "cwe-190-3": {
+        "cwe-190": [
+            "lib\\VM\\detail\\IdentifierHashTable.cpp"
+        ]
+    },
+    "cwe-190-4": {
+        "cwe-190": [
+            "libaudiofile\\modules\\BlockCodec.cpp",
+            "libaudiofile\\modules\\MSADPCM.cpp"
+        ]
+    },
+    "cwe-20-1": {
+        "cwe-20": [
+            "src\\Config.cpp",
+            "src\\Client.cpp",
+            "src\\IRCSock.cpp"
+        ]
+    },
+    "cwe-20-2": {
+        "cwe-20": [
+            "lib\\afflib_pages.cpp"
+        ]
+    },
+    "cwe-20-3": {
+        "cwe-20": [
+            "src\\jp2image.cpp"
+        ]
+    },
+    "cwe-20-4": {
+        "cwe-20": [
+            "src\\engine\\server\\server.cpp"
+        ]
+    },
+    "cwe-20-5": {
+        "cwe-20": [
+            "taglib\\ogg\\xiphcomment.cpp"
+        ]
+    },
+    "cwe-22-1": {
+        "cwe-22": [
+            "src\\wiki.c"
+        ]
+    },
+    "cwe-22-10": {
+        "cwe-22": [
+            "srr\\Importers\\ImportEPUB.cpp"
+        ]
+    },
+    "cwe-22-11": {
+        "cwe-22": [
+            "libspack\\src\\chmextract.c"
+        ]
+    },
+    "cwe-22-12": {
+        "cwe-22": [
+            "device-linux.c"
+        ]
+    },
+    "cwe-22-2": {
+        "cwe-22": [
+            "src\\mod_alias.c"
+        ]
+    },
+    "cwe-22-3": {
+        "cwe-22": [
+            "libarchive\\archive_write_disk_posix.c"
+        ]
+    },
+    "cwe-22-4": {
+        "cwe-22": [
+            "imap\\util.c"
+        ]
+    },
+    "cwe-22-5": {
+        "cwe-22": [
+            "pigz.c"
+        ]
+    },
+    "cwe-22-6": {
+        "cwe-22": [
+            "quazip\\JlCompress.cpp"
+        ]
+    },
+    "cwe-22-7": {
+        "cwe-22": [
+            "src\\common.c"
+        ]
+    },
+    "cwe-22-8": {
+        "cwe-22": [
+            "src\\WebModules.cpp"
+        ]
+    },
+    "cwe-22-9": {
+        "cwe-22": [
+            "devices\\avahi.cpp",
+            "devices\\avahiservice.cpp"
+        ]
+    },
+    "cwe-78-1": {
+        "cwe-78": [
+            "src\\getchar.c",
+            "src\\version.c"
+        ]
+    },
+    "cwe-78-2": {
+        "cwe-78": [
+            "libr\\core\\\\cbin.c",
+            "libr\\core\\cmd.c"
+        ]
+    },
+    "cwe-78-3": {
+        "cwe-78": [
+            "submoudule-comfig.c"
+        ]
+    },
+    "cwe-78-4": {
+        "cwe-78": [
+            "src\\scp.c"
+        ]
+    },
+    "cwe-78-5": {
+        "cwe-78": [
+            "imap\\auth_login.c",
+            "imap\\command.c",
+            "imap\\imap.c",
+            "imap\\imap_private.h",
+            "imap\\util.c"
+
+        ]
+    },
+    "cwe-79-1": {
+        "cwe-79": [
+            "src\\mod_auth_openidc.c"
+        ]
+    },
+    "cwe-79-2": {
+        "cwe-79": [
+            "main\\SAPI.c"
+        ]
+    },
+    "cwe-79-3": {
+        "cwe-79": [
+            "sapi\\apache2handler\\sapi_apache2.c"
+        ]
+    },
+    "cwe-79-4": {
+        "cwe-79": [
+            "auth_mello.h",
+            "auth_mellon_cache.c",
+            "auth_mellon_cookie.c",
+            "auth_mellon_session.c"
+        ]
+    },
+    "cwe-79-5": {
+        "cwe-79": [
+            "src\\moud_auth_openidc.c"
+        ]
+    },
+    "cwe-79-6": {
+        "cwe-79": [
+            "src\\mod_auth_openidc.c",
+            "src\\mod_auth_openidc.h",
+            "src\\util.c"
+        ]
+    },
+    "cwe-79-7": {
+        "cwe-79": [
+            "src\\modules\\tmx\\tmx_pretran.c"
+        ]
+    },
+    "cwe-89-1": {
+        "cwe-89": [
+            "main\\WebServer.cpp"
+        ]
+    },
+    "cwe-89-2": {
+        "cwe-89": [
+            "plugins\\sql.c"
+        ]
+    },
+    "cwe-89-3": {
+        "cwe-89": [
+            "servers\\slapd\\back-sql\\search.c"
+        ]
+    },
+    "cwe-89-4": {
+        "cwe-89": [
+            "src\\core\\abstractsqlstorage.cpp",
+            "src\\core\\abstractsqlstorage.h"
+        ]
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "cwe-20-1": {
+        "cwe-20": [
+            "app.py"
+        ]
+    },
+    "cwe-20-2": {
+        "cwe-20": [
+            "summerizer.py"
+        ]
+    },
+    "cwe-20-3": {
+        "cwe-20": [
+            "get_patients_fit_for_als_trials_with_guardrails.py"
+        ]
+    },
+    "cwe-20-4": {
+        "cwe-20": [
+            "summerizer.py"
+        ]
+    },
+    "cwe-20-5": {
+        "cwe-20": [
+            "saist\\llm\\adapters\\ollama.py",
+            "saist\\main.py",
+            "saist\\util\\argparsing.py"
+        ]
+    },
+    "cwe-20-6": {
+        "cwe-20": [
+            "artefacts\\syn_tm.py"
+        ]
+    },
+    "cwe-22-1": {
+        "cwe-22": [
+            "nexus\\profile.py"
+        ]
+    },
+    "cwe-22-2": {
+        "cwe-22": [
+            "sdks\\python\\hatchet_sdk\\v0\\clients\\rest\\api_client.py"
+        ]
+    },
+    "cwe-22-3": {
+        "cwe-22": [
+            "modules\\onnx_impl\\ui.py"
+        ]
+    },
+    "cwe-22-4": {
+        "cwe-22": [
+            "flask_webgoat\\actions.py"
+        ]
+    },
+    "cwe-22-5": {
+        "cwe-22": [
+            "insecuresecurityviews.py"
+        ]
+    },
+    "cwe-22-6": {
+        "cwe-22": [
+            "main.py"
+        ]
+    },
+    "cwe-352-1": {
+        "cwe-352": [
+            "socially\\app.py"
+        ]
+    },
+    "cwe-352-2": {
+        "cwe-352": [
+            "sqli\\utils\\jinja2.py"
+        ]
+    },
+    "cwe-502-1": {
+        "cwe-502": [
+            "data_gen.py",
+            "inference.py",
+            "ingest_docs.py"
+        ]
+    },
+    "cwe-502-2": {
+        "cwe-502": [
+            "main\\engines\\evaluate.py"
+        ]
+    },
+    "cwe-502-3": {
+        "cwe-502": [
+            "scrapy\\extensions\\httpcache.py",
+            "scrapy\\extensions\\spiderstate.py"
+        ]
+    },
+    "cwe-502-4": {
+        "cwe-502": [
+            "lifetimes\\fitters\\__init__.py"
+        ]
+    },
+    "cwe-502-5": {
+        "cwe-502": [
+            "libs\\experimental\\langchain_experimental\\data_anonymizer\\presidio.py",
+            "libs\\partners\\prompty\\langchain_promptycore.py"
+        ]
+    },
+    "cwe-78-1": {
+        "cwe-78": [
+            "2\\challenge-1\\command-injection.py"
+        ]
+    },
+    "cwe-78-2": {
+        "cwe-78": [
+            "banking_app//routes.py"
+        ]
+    },
+    "cwe-78-3": {
+        "cwe-78": [
+            "src\\holoscan_cli\\common\\dockerutils.py",
+            "src\\holoscan_cli\\common\\utils.py",
+            "src\\holoscan_cli\\packager\\container_builder.py",
+            "src\\holoscan_cli\\runner\\runner.py"
+        ]
+    },
+    "cwe-78-4": {
+        "cwe-78": [
+            "insecure-app//app.py"
+        ]
+    },
+    "cwe-78-5": {
+        "cwe-78": [
+            "packages\\syft\\src\\syft\\node\\node.py"
+        ]
+    },
+    "cwe-78-6": {
+        "cwe-78": [
+            "flask_webgoat\\actions.py"
+        ]
+    },
+    "cwe-79-1": {
+        "cwe-79": [
+            "sqlischemaforms.py"
+        ]
+    },
+    "cwe-79-2": {
+        "cwe-79": [
+            "consoleme\\handlers\\v2\\roles.py"
+        ]
+    },
+    "cwe-79-3": {
+        "cwe-79": [
+            "cwe_error_test1.py"
+        ]
+    },
+    "cwe-79-4": {
+        "cwe-79": [
+            "heltour\\tournamen\\tandroid_app.py"
+        ]
+    },
+    "cwe-79-5": {
+        "cwe-79": [
+            "app.py"
+        ]
+    },
+    "cwe-798-1": {
+        "cwe-798": [
+            "artefacts\\syn_tm.py"
+        ]
+    },
+    "cwe-798-2": {
+        "cwe-798": [
+            "server\\webapp.py"
+        ]
+    },
+    "cwe-798-3": {
+        "cwe-798": [
+            "agent\\hardcodedKey.py"
+        ]
+    },
+    "cwe-798-4": {
+        "cwe-798": [
+            "hello_world\\app.py"
+        ]
+    },
+    "cwe-798-5": {
+        "cwe-798": [
+            "noncompliant.py"
+        ]
+    },
+    "cwe-89-1": {
+        "cwe-89": [
+            "artefacts\\syn_tm.py"
+        ]
+    },
+    "cwe-89-2": {
+        "cwe-89": [
+            "get_patients_fit_for_als_trials_with_guardrails.py"
+        ]
+    },
+    "cwe-89-3": {
+        "cwe-89": [
+            "posthog\\api\\activity_log.py"
+        ]
+    },
+    "cwe-89-4": {
+        "cwe-89": [
+            "main.py"
+        ]
+    },
+    "cwe-89-5": {
+        "cwe-89": [
+            "flask_webgoat\\__init__.py"
+        ]
+    },
+    "cwe-89-6": {
+        "cwe-89": [
+            "flask_webgoat\\actions",
+            "flask_webgoat\\auth.py.py"
+        ]
+    },
+    "cwe-89-7": {
+        "cwe-89": [
+            "sqli\\dao\\student.py"
+        ]
+    },
+    "cwe-89-8": {
+        "cwe-89": [
+            "app\\views\\blabController.py"
+        ]
+    },
+    "cwe-918-1": {
+        "cwe-918": [
+            "Backend\\services\\logic.py"
+        ]
+    },
+    "cwe-918-2": {
+        "cwe-918": [
+            "Backend\\services\\logic.py"
+        ]
+    },
+    "cwe-94-1": {
+        "cwe-94": [
+            "dependencyInstances\\dependencies.py"
+        ]
+    },
+    "cwe-94-2": {
+        "cwe-94": [
+            "saist\\main.py"
+        ]
+    },
+    "cwe-94-3": {
+        "cwe-94": [
+            "guy.py"
+        ]
+    },
+    "cwe-94-4": {
+        "cwe-94": [
+            "lockdoors\\infogathering.py"
+        ]
+    },
+    "cwe-94-5": {
+        "cwe-94": [
+            "factool\\factool\\math\\tool.py"
+        ]
+    }
+}
