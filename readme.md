@@ -79,13 +79,8 @@ Each dataset includes repository-level information tailored for evaluating CodeQ
 
 
 
-
-
 > [WARNING]  
 > The code is not fully tested and may require debugging. If you encounter issues, please raise them on the [GitHub repository](https://github.com/repoqleval/RepoQLEval) or submit a pull request. Thank you!
 
 
 
-
-
-> > The code is not fully tested and may require debugging. If you encounter issues, please raise them on the [GitHub repository](https://github.com/repoqleval/RepoQLEval) or submit a pull request. Thank you!
