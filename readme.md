@@ -1,48 +1,91 @@
-# RepoQLEval: A Reproducible Benchmark for Evaluating LLMs on Generating CodeQL for Repo-Level Vulnerability Detection
+<div align="center">
+    <p>
+    <h1>
+    RepoQLEval
+    </h1>
+    <style="width: 200px; height: 200px;">
+    </p>
+    <p>
+    </p>
+    <a href="https://github.com/repoqleval/RepoQLEval"><img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="platform"></a>
+    <a href="https://github.com/repoqleval/RepoQLEval"><img src="https://img.shields.io/badge/Python-3.8+-orange" alt="python"></a>
+    <a href="https://github.com/repoqleval/RepoQLEval"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="license"></a>
+</div>
 
-## Overview
 
-This project contains the code for Preliminary Experiment 2, the Main Experiment, and the benchmark created for the article *"RepoQLEval: A Reproducible Benchmark for Evaluating LLMs on Generating CodeQL for Repo-Level Vulnerability Detection"*. The dataset is divided into two parts: C/CPP and Python, stored in the `python-v1` and `cpp-v4` directories, respectively.
+<hr>
 
-Since Preliminary Experiment 1 was conducted directly using the CodeQL plugin in VSCode, no additional code is required for it. Before starting the experiments, you must install the CodeQL CLI and properly configure the environment variables.
+## 🚀 Overview
+RepoQLEval is a comprehensive benchmark designed to evaluate the capabilities of large language models (LLMs) in generating CodeQL queries for repository-level vulnerability detection. The project includes code for Preliminary Experiment 2, the Main Experiment, and a structured dataset divided into two parts: C/CPP (stored in the `cpp-v4` directory) and Python (stored in the `python-v1` directory). Preliminary Experiment 1 was conducted using the CodeQL plugin in VSCode, so no additional code is provided for it.
 
-## Preliminary Experiment
+> [NOTE]  
+> Before running the experiments, ensure the CodeQL CLI is installed and environment variables are properly configured.
 
-Preliminary Experiment 2 evaluates the vulnerability detection capabilities of large language models (LLMs) at the repository level. The code is located in the `preliminary-exp` folder, divided into:
+## 🔥 News
+- *Sep 12, 2025*: RepoQLEval benchmark and experiments are now publicly available! 🎉
 
-- **llm-python**: Tests the vulnerability detection capabilities of various LLMs on Python database repositories.
-- **llm-cpp**: Tests the vulnerability detection capabilities of various LLMs on C/CPP database repositories.
+## 📥 Setup and Configuration
 
-**Parameters to Modify Before Running:**
+### Prerequisites
+- Install the [CodeQL CLI](https://github.com/github/codeql-cli-binaries/releases?page=1) and configure environment variables.
+- Ensure Python 3.8 or higher is installed.
 
-- `folder_path`: Replace with the actual path to the project root folder.
-
-## CodeQL Configuration
-
-Before running the CodeQL database, you need to configure the `.yml` files. We have implemented a program for batch automation of this configuration. The relevant files are located in the `yml` folder.
+### CodeQL Configuration
+To automate the configuration of `.yml` files for CodeQL, use the batch automation program located in the `yml` folder.
 
 **Parameters to Modify:**
+- `root_directory`: Set to the actual path of the project root folder.
 
-- `root_directory`: Replace with the actual path to the project root folder.
+## 🛠️ Experiments
 
-## Main Experiment
+### Preliminary Experiment
+Preliminary Experiment 2 evaluates the vulnerability detection capabilities of LLMs at the repository level. The code is organized in the `preliminary-exp` folder:
 
-The Main Experiment tests the CodeQL generation capabilities of various LLMs, divided into three progressive stages:
+- **llm-python**: Tests LLMs on Python database repositories.
+- **llm-cpp**: Tests LLMs on C/CPP database repositories.
 
-- **main.py**: Tests the ability of LLMs to directly generate CodeQL statements.
-- **main-file.py**: Tests the ability of LLMs to customize CodeQL statements.
-- **main-file-ql.py**: Tests the ability of LLMs to optimize CodeQL statements.
+**Parameters to Modify:**
+- `folder_path`: Set to the actual path of the project root folder.
 
-**Parameters to Modify Before Running:**
+### Main Experiment
+The Main Experiment evaluates LLMs' ability to generate and optimize CodeQL queries across three progressive stages, with code located in the project root:
 
+- **main.py**: Tests direct generation of CodeQL statements.
+- **main-file.py**: Tests customization of CodeQL statements.
+- **main-file-ql.py**: Tests optimization of CodeQL statements.
+
+**Parameters to Modify:**
 - `model`: Specify the name of the LLM to be tested.
-- `root_dir`: Replace with the actual path to the project root folder.
+- `root_dir`: Set to the actual path of the project root folder.
 
-## Saving and Analyzing Experiment Results
+## 📊 Saving and Analyzing Results
+Scripts for saving and analyzing experiment results are located in the `results` folder:
 
-For the generated experiment results, we have designed extraction scripts and LLM-assisted vulnerability label comparison. After each part of the Main Experiment, you can use our scripts to automatically save and perform a preliminary analysis of the results. The scripts for saving and analyzing results are located in the `results` folder, divided into the following files:
+- **save_history.py**: Saves historical records for subsequent analysis.
+- **results_ext.py**: Extracts results for LLM-assisted comparison and manual verification.
+- **results_ans.py**: Uses a capable LLM for preliminary comparison, followed by manual spot-checking to evaluate model performance.
 
-- **save_history.py**: Saves all historical records for subsequent analysis.
-- **results_ext.py**: Extracts results for subsequent LLM-assisted comparison and manual verification.
+## 🔍 Dataset Description
+The dataset is divided into two parts:
+- **python-v1**: Contains Python repository data.
+- **cpp-v4**: Contains C/CPP repository data.
 
-**results_ans.py**: Uses a capable LLM for preliminary comparison, followed by manual spot-checking to evaluate the model's capabilities across various aspects.
+  you can download the all data from [Google Drive](https://drive.google.com/drive/folders/1esB_XYgWPUe95CgEdRmVvZ8m8CVWaQgI?usp=drive_link), or simply use the following links:
+```bash
+https://drive.google.com/drive/folders/1esB_XYgWPUe95CgEdRmVvZ8m8CVWaQgI?usp=drive_link
+```
+
+Each dataset includes repository-level information tailored for evaluating CodeQL query generation and vulnerability detection.
+
+
+
+
+
+> [WARNING]  
+> The code is not fully tested and may require debugging. If you encounter issues, please raise them on the [GitHub repository](https://github.com/repoqleval/RepoQLEval) or submit a pull request. Thank you!
+
+
+
+
+
+> > The code is not fully tested and may require debugging. If you encounter issues, please raise them on the [GitHub repository](https://github.com/repoqleval/RepoQLEval) or submit a pull request. Thank you!
