@@ -1,0 +1,378 @@
+{
+    "cwe-20-1": {
+        "cwe-20": [
+         {
+            "file":"app.py",
+            "lines":["84,148-220"],
+            "functions":["call_model"]
+         }          
+        ]
+    },
+    "cwe-20-2": {
+        "cwe-20": [
+         {
+            "file":"summerizer.py",
+            "lines":["9,11,15,25,29"],
+            "functions":["llama_summarizer"]
+         }      
+        ]
+    },
+    "cwe-20-3": {
+        "cwe-20": [
+         {
+            "file":"get_patients_fit_for_als_trials_with_guardrails.py",
+            "lines":["160,162-175","183,193"],
+            "functions":["validate_prompt","main"]
+         }      
+        ]
+    },
+    "cwe-20-4": {
+        "cwe-20": [
+        {
+            "file":"summerizer.py",
+            "lines":["9,11,15,19,21,23,25"],
+            "functions":["llama_summarizer"]
+         }      
+        ]
+    },
+    "cwe-20-5": {
+        "cwe-20": [
+        {
+            "file":"saist\\llm\\adapters\\ollama.py",
+            "lines":["12-16","18-23"],
+            "functions":["__init__","get_model_options"]
+         },
+         {
+            "file":"saist\\main.py",
+            "lines":["48"],
+            "functions":["analyze_single_file"]
+         }
+        ]
+    },
+    "cwe-20-6": {
+        "cwe-20": [
+        {
+            "file":"artefacts\\syn_tm.py",
+            "lines":["86-91","96-101"],
+            "functions":["generate_sql_query","improve_sql_query"]
+        } 
+        ]
+    },
+    "cwe-22-1": {
+        "cwe-22": [
+        {
+            "file":"nexus\\profile.py",
+            "lines":["1-49","50-139","140-147"],
+            "functions":["create_social_profile_tweepy","create_social_profile_sns","main"]
+        }
+        ]
+    },
+    "cwe-22-2": {
+        "cwe-22": [
+        {
+            "file":"sdks\\python\\hatchet_sdk\\v0\\clients\\rest\\api_client.py",
+            "lines":["404","759"],
+            "functions":["deserialize"," __deserialize_model"]
+        }
+        ]
+    },
+    "cwe-22-5": {
+        "cwe-22": [
+            {
+            "file":"insecure/security/views.py",
+            "lines":["31","38"],
+            "functions":["read_file","copy_file"]
+        }
+        ]
+    },
+    "cwe-22-6": {
+        "cwe-22": [
+            {
+            "file":"main.py",
+            "lines":["34-37"],
+            "functions":["login"]
+        }
+        ]
+    },
+    "cwe-352-2": {
+        "cwe-352": [
+            {
+            "file":"sqli\\utils\\jinja2.py",
+            "lines":["13"],
+            "functions":["csrf_token"]
+        }
+        ]
+    },
+    "cwe-502-1": {
+        "cwe-502": [
+            {
+            "file":"data_gen.py",
+            "lines":["337-340","477-478","534-535,549"],
+            "functions":["launch_instruction_generation","launch_data_generation","__init__(self)"]
+        },
+        {
+            "file":"inference.py",
+            "lines":["69-70","96"],
+            "functions":["vicuna_chat","vicuna_chat"]
+        },
+        {
+            "file":"ingest_docs.py",
+            "lines":["305"],
+            "functions":["ingest_docs"]
+        }
+        ]
+    },
+    "cwe-502-3": {
+        "cwe-502": [
+            {
+            "file":"scrapy\\extensions\\httpcache.py",
+            "lines":["355"],
+            "functions":["_read_meta"]
+        },
+        {
+            "file":"scrapy\\extensions\\spiderstate.py",
+            "lines":["34"],
+            "functions":["spider_closed"]
+        }
+        ]
+    },
+    "cwe-502-5": {
+        "cwe-502": [
+            {
+            "file":"libs\\experimental\\langchain_experimental\\data_anonymizer\\presidio.py",
+            "lines":["466"],
+            "functions":["load_deanonymizer_mapping"]
+        },
+        {
+            "file":"libs\\partners\\prompty\\langchain_prompty/core.py",
+            "lines":["322"],
+            "functions":["read"]
+        }
+        ]
+    },
+    "cwe-78-1": {
+        "cwe-78": [
+            {
+            "file":"2/challenge-1/command-injection.py",
+            "lines":["12-14","19-21","25-31,33-34"],
+            "functions":[" command_injection1"," command_injection2","path_exists_not_sanitizer"]
+        }
+        ]
+    },
+    "cwe-78-2": {
+        "cwe-78": [
+            {
+            "file":"banking_app//routes.py",
+            "lines":["24-25","37-38","124","142"],
+            "functions":["rce","rce_2","admin_login","admin_dashboard"]
+        }
+        ]
+    },
+    "cwe-78-3": {
+        "cwe-78": [
+            {
+            "file":"src\\holoscan_cli\\common\\dockerutils.py",
+            "lines":["336-338","510-512,514-516","523-524,526-527"],
+            "functions":["docker_run","_additional_devices_to_mount","_host_is_native_igpu"]
+        },
+        {
+            "file":"src\\holoscan_cli\\common\\utils.py",
+            "lines":["50","65","69,79"],
+            "functions":["get_gpu_count","run_cmd","run_cmd_output"]
+        },
+        {
+            "file":"src\\holoscan_cli\\runner\\runner.py",
+            "lines":["51","56-63","79,97,99,101-104,107,117,138-140","205","274,278"],
+            "functions":["_fetch_map_manifest","_ensure_valid_exit_code","_run_app","_dependency_verification"," _pkg_specific_dependency_verification"]
+        }
+        ]
+    },
+    "cwe-78-4": {
+        "cwe-78": [
+            {
+            "file":"insecure-app//app.py",
+            "lines":["28"],
+            "functions":["index"]
+        }
+        ]
+    },
+    "cwe-78-5": {
+        "cwe-78": [
+            {
+            "file":"packages\\syft\\src\\syft\\node\\node.py",
+            "lines":["224-227"],
+            "functions":["get_venv_packages"]
+        }
+        ]
+    },
+    "cwe-78-6": {
+        "cwe-78": [
+            {
+            "file":"flask_webgoat\\actions.py",
+            "lines":["44"],
+            "functions":["calculate"]
+        }
+        ]
+    },
+    "cwe-79-1": {
+        "cwe-79": [
+            {
+            "file":"sqlischemaforms.py",
+            "lines":["9,13"],
+            "functions":["sanitize_input"]
+        }
+        ]
+    },
+    "cwe-79-2": {
+        "cwe-79": [
+            {
+            "file":"consoleme\\handlers\\v2\\roles.py",
+            "lines":["132"],
+            "functions":["get(self, role=None)"]
+        }
+        ]
+    },
+    "cwe-79-4": {
+        "cwe-79": [
+            {
+            "file":"heltour\\tournamen\\tandroid_app.py",
+            "lines":["39"],
+            "functions":["slack_event"]
+        }
+        ]
+    },
+    "cwe-79-5": {
+        "cwe-79": [
+            {
+            "file":"app.py",
+            "lines":["13"],
+            "functions":["personalized_hello"]
+        }
+        ]
+    },
+    "cwe-798-1": {
+        "cwe-798": [
+            {
+            "file":"artefacts\\syn_tm.py",
+            "lines":["3-4,11-20","86-91","96-101","135"],
+            "functions":["OpenAI","generate_sql_query","improve_sql_query","main"]
+        }
+        ]
+    },
+    "cwe-89-2": {
+        "cwe-89": [
+            {
+            "file":"get_patients_fit_for_als_trials_with_guardrails.py",
+            "lines":["91-92,95-97","162-175","193-194"],
+            "functions":[" create_database_admin_agent","validate_prompt","main"]
+        }
+        ]
+    },
+    "cwe-89-4": {
+        "cwe-89": [
+            {
+            "file":"main.py",
+            "lines":["34-37"],
+            "functions":["login"]
+        }
+        ]
+    },
+    "cwe-89-5": {
+        "cwe-89": [
+            {
+            "file":"flask_webgoat\\__init__.py",
+            "lines":["12,18"],
+            "functions":[" login"]
+        }
+        ]
+    },
+    "cwe-89-8": {
+
+        "cwe-89": [
+            {
+            "file":"app\\views\\blabController.py",
+            "lines":["120","201,211","300"],
+            "functions":["feed","blab","blabbers"]
+        },
+        {
+            "file":"app/commands/test_cwe331-2.py",
+            "lines":["6"],
+            "functions":["generate_iv"]
+        },
+        {
+            "file":"app/views/userController.py",
+            "lines":["198,200","561","708"],
+            "functions":["showPasswordHint","processProfile","downloadImage"]
+        }
+        ]
+    },
+    "cwe-918-1": {
+        "cwe-918": [
+            {
+            "file":"Backend\\services\\logic.py",
+            "lines":["10-11,50-61","64-65,67-70,72-74,76-78,80-83,85-90","93-97,102-103,105-106"],
+            "functions":["is_url_safe","duckduckgo_check","fetch_website_text"]
+        }
+        ]
+    },
+    "cwe-918-2": {
+        "cwe-918": [
+            {
+            "file":"Backend\\services\\logic.py",
+            "lines":["124,134,144,148","167"],
+            "functions":["generate_response"," generate_response"]
+        }
+        ]
+    },
+    "cwe-94-1": {
+        "cwe-94": [
+            {
+            "file":"dependencyInstances\\dependencies.py",
+            "lines":["25-28","46","77"],
+            "functions":["login","home","run_ssh_command"]
+        }
+        ]
+    },
+    "cwe-94-2": {
+        "cwe-94": [
+           {
+            "file":"saist/llm/adapters/__init__.py",
+            "lines":["18,20-22,25,27-29"],
+            "functions":["get_model_options"]
+        },
+        {
+            "file":"saist/llm/adapters/ollama.py",
+            "lines":["22-23","32,40-41,49"],
+            "functions":["get_model_options","prompt_structured"]
+        },
+            {
+            "file":"saist\\main.py",
+            "lines":["42,44,48","57,59,62","267"],
+            "functions":["analyze_single_file","generate_summary_from_findings","main"]
+        },
+        {
+            "file":"saist/util/poem.py",
+            "lines":["15"],
+            "functions":[" poem"]
+        }
+        ]
+    },
+    "cwe-94-3": {
+        "cwe-94": [
+            {
+            "file":"gui.py",
+            "lines":["51-57,59-63,66-69","75,77-80","84,87-92","99-100,105,108","131","159","177,179","193"],
+            "functions":["validate","queryToDict","getUserFromQuery","add_header","getInGroups","getAdminPanel","leaveInListGroup","mainGUI"]
+        }
+        ]
+    },
+    "cwe-94-4": {
+        "cwe-94": [
+            {
+            "file":"lockdoors\\infogathering.py",
+            "lines":["30-31","64-66,70","100,104","137-139","226","237-239","295","324","356-359","399","438","454","485","514","542","606","645"],
+            "functions":["dirsearch","brut3k1t","gobuster","enyx","Sublist3r","Sublist3r","wafw00f","sherlock","snmpwn","Striker","theHarvester","URLextractor","denumerator","nmap","Raccoon","dnsrecon"]
+        }
+        ]
+    }
+}

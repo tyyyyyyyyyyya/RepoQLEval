@@ -1,0 +1,340 @@
+{
+    "cwe-119-1": {
+        "cwe-119": [
+            {
+            "file":"src\\Internals\\QuotedString.cpp",
+            "lines":["61-69,78-81,83-86"],
+            "functions":[" unescapeChar"]
+        }
+        ]
+    },
+    "cwe-119-2": {
+        "cwe-119": [
+            {
+            "file":"src/EbmlElement.cpp",
+            "lines":["412"],
+            "functions":[" EbmlElement * EbmlElement::FindNextElement"]
+            }
+        ]
+    },
+    "cwe-119-4": {
+        "cwe-119": [
+            {
+            "file":"Source\\C++\\Core\\Ap4SampleEntry.cpp",
+            "lines":["775,778,781"],
+            "functions":["AP4_VisualSampleEntry::ReadFields"]
+            }
+        ]
+    },
+    "cwe-119-5": {
+        "cwe-119": [
+            {
+            "file":"src\\jp2image.cpp",
+            "lines":["356","584,589"],
+            "functions":["boxes_check","boxes_check"]
+        }
+        ]
+    },
+    "cwe-119-6": {
+        "cwe-119": [
+            {
+            "file":"lib\\ofx_preproc.cpp",
+            "lines":["420","441-443"],
+            "functions":["ofx_proc_file","sanitize_proprietary_tags"]
+        }
+        ]
+    },
+    "cwe-190-1": {
+        "cwe-190": [
+            {
+            "file":"src\\webpimage.cpp",
+            "lines":["830-831"],
+            "functions":["namespace Exiv2"]
+        }
+        ]
+    },
+    "cwe-190-4": {
+        "cwe-190": [
+            {
+            "file":"libaudiofile\\modules\\BlockCodec.cpp",
+            "lines":["55-56"],
+            "functions":["BlockCodec::runPull"]
+        },
+        {
+            "file":"libaudiofile\\modules\\MSADPCM.cpp",
+            "lines":["106,115","217,221"],
+            "functions":["int16_t adaptationTable"," MSADPCM::decodeBlock"]
+        }
+        ]
+    },
+    "cwe-20-1": {
+        "cwe-20": [
+            {
+            "file":"modules/controlpanel.cpp",
+            "lines":["498"],
+            "functions":["HAVE_ICU"]
+        },
+        {
+            "file":"src/IRCNetwork.cpp",
+            "lines":["1485,1487"],
+            "functions":["CIRCNetwork::SetBindHost"]
+        },
+        {
+            "file":"src/User.cpp",
+            "lines":["1256,1258"],
+            "functions":[" CUser::SetClientEncoding"]
+        },
+        {
+            "file":"src/znc.cpp",
+            "lines":["2095-2097","2104"],
+            "functions":["HAVE_ICU","CZNC::FixupEncoding"]
+        }
+        ]
+    },
+    "cwe-20-3": {
+        "cwe-20": [
+            {
+            "file":"src\\jp2image.cpp",
+            "lines":["356","584,589"],
+            "functions":["boxes_check","boxes_check"]
+        }
+        ]
+    },
+    "cwe-20-4": {
+        "cwe-20": [
+            {
+            "file":"src\\engine\\server\\server.cpp",
+            "lines":["499-500"],
+            "functions":["CServer::SendMsg"]
+        }
+        ]
+    },
+    "cwe-20-5": {
+        "cwe-20": [
+            {
+            "file":"taglib\\ogg\\xiphcomment.cpp",
+            "lines":["298,301,306"],
+            "functions":["Ogg::XiphComment::parse"]
+        }
+        ]
+    },
+    "cwe-22-1": {
+        "cwe-22": [
+            {
+            "file":"src\\wiki.c",
+            "lines":["869,882,895,909","1008"],
+            "functions":["wiki_handle_rest_call","wiki_handle_http_request"]
+        }
+        ]
+    },
+    "cwe-22-3": {
+        "cwe-22": [
+            {
+            "file":"libarchive\\archive_write_disk_posix.c",
+            "lines":["2512-2513","2532"],
+            "functions":["cleanup_pathname_win","cleanup_pathname"]
+        }
+        ]
+    },
+    "cwe-22-5": {
+        "cwe-22": [
+            {
+            "file":"pigz.c",
+            "lines":["3523-3529,3531-3533,3536,3539-3540,3542"],
+            "functions":["local void process"]
+        }
+        ]
+    },
+    "cwe-22-6": {
+        "cwe-22": [
+            {
+            "file":"qztest/testjlcompress.cpp",
+            "lines":["305-306,308-309","328-330,338,347-349,357"],
+            "functions":["TestJlCompress::extractDir_data","TestJlCompress::extractDir"]
+        }
+        ]
+    },
+    "cwe-22-7": {
+        "cwe-22": [
+            {
+            "file":"src\\common.c",
+            "lines":["95"],
+            "functions":[" *compose_path"]
+        }
+        ]
+    },
+    "cwe-22-8": {
+        "cwe-22": [
+            {
+            "file":"src\\WebModules.cpp",
+            "lines":["560,563,566"],
+            "functions":["CWebSock::EPageReqResult CWebSock::PrintTemplate"]
+        }
+        ]
+    },
+     "cwe-22-10": {
+        "cwe-22": [
+            {
+            "file":"srr\\Importers\\ImportEPUB.cpp",
+            "lines":["428-433"],
+            "functions":["ImportEPUB::ExtractContainer"]
+        }
+        ]
+    },
+    "cwe-22-11": {
+        "cwe-22": [
+            {
+            "file":"libspack\\src\\chmextract.c",
+            "lines":["54-173"],
+            "functions":["*create_output_name"]
+        }  
+        ]
+    },
+    "cwe-78-2": {
+        "cwe-78": [
+            {
+            "file":"libr\\core\\\\cbin.c",
+            "lines":["91,99","2228,2231"],
+            "functions":["*__filterShell","bin_symbols"]
+        }
+        ]
+    },
+    "cwe-78-3": {
+        "cwe-78": [
+            {
+            "file":"submoudule-comfig.c",
+            "lines":["47-49","476-477"],
+            "functions":["submodule.<name>.update","parse_config"]
+        }
+        ]
+    },
+    "cwe-78-4": {
+        "cwe-78": [
+            {
+            "file":"src\\scp.c",
+            "lines":["10-24","66-72","80-132","212-228,235-237,263-267","278-287","311-344","403-429","481-518","581-582","593-627","689-739","813-833","871-896","936-964,997-999,1004-1008,1016-1017,1022,1025-1034","1054-1071","1104-1121","1155-1196","1262-1265","1280-1283","1298-1301","1314-1317","1331-1333","1345-1348","1361-1364"],
+            "functions":["ssh_scp_new","ssh_scp_new","ssh_scp_init","ssh_scp_close","ssh_scp_free","ssh_scp_free","ssh_scp_leave_directory","ssh_scp_push_file64","ssh_scp_push_file","ssh_scp_response","ssh_scp_write","ssh_scp_read_string","ssh_scp_pull_request","SSH_LOG","ssh_scp_deny_request","ssh_scp_accept_request","ssh_scp_read","*ssh_scp_request_get_filename","ssh_scp_request_get_permission","ssh_scp_request_get_size","ssh_scp_request_get_size64","ssh_scp_integer_mode","*ssh_scp_string_mode","*ssh_scp_request_get_warning"]
+        }
+        ]
+    },
+    "cwe-78-5": {
+        "cwe-78": [
+            {
+            "file":"imap\\auth_login.c",
+            "lines":["68-69"],
+            "functions":["imap_auth_login"]
+        },
+        {
+            "file":"imap\\command.c",
+            "lines":["502"],
+            "functions":["cmd_parse_lsub"]
+        },
+        {
+            "file":"imap\\imap.c",
+            "lines":["467,475,480,485","498"],
+            "functions":["compile_search","compile_search"]
+        },
+        {
+            "file":"imap\\imap_private.h",
+            "lines":["331"],
+            "functions":["*imap_get_qualifier"]
+        },
+        {
+            "file":"imap\\util.c",
+            "lines":["801","877"],
+            "functions":["imap_quote_string","imap_munge_mbox_name"]
+        }
+        ]
+    },
+    "cwe-79-1": {
+        "cwe-79": [
+            {
+            "file":"src\\mod_auth_openidc.c",
+            "lines":["3109","3152-3153,3157"],
+            "functions":["oidc_handle_session_management_iframe_rp","oidc_handle_session_management_iframe_rp"]
+        }
+        ]
+    },
+    "cwe-79-2": {
+        "cwe-79": [
+            {
+            "file":"main\\SAPI.c",
+            "lines":["746-752"],
+            "functions":["SAPI_API int sapi_header_op"]
+        }
+        ]
+    },
+    "cwe-79-4": {
+        "cwe-79": [
+            {
+            "file":"auth_mello.h",
+            "lines":["383"],
+            "functions":["*auth_mellon_server_config","*am_cache_entry_get_string"]
+        },
+        {
+            "file":"auth_mellon_session.c",
+            "lines":["48","63","90"],
+            "functions":["*am_get_request_sessio","*am_get_request_session","*am_new_request_session"]
+        },
+        {
+            "file":"auth_mellon_cache.c",
+            "lines":["281"],
+            "functions":["*am_cache_entry_get_string"]
+        }
+        ]
+    },
+    "cwe-79-5": {
+        "cwe-79": [
+            {
+            "file":"src\\moud_auth_openidc.c",
+            "lines":["3109","3152-3153,3157"],
+            "functions":["oidc_handle_session_management_iframe_rp","oidc_handle_session_management_iframe_rp"]
+        }
+        ]
+    },
+    "cwe-79-7": {
+        "cwe-79": [
+            {
+            "file":"src\\modules\\tmx\\tmx_pretran.c",
+            "lines":["263"],
+            "functions":["tmx_check_pretran"]
+        }
+        ]
+    },
+    "cwe-89-1": {
+        "cwe-89": [
+            {
+            "file":"main\\WebServer.cpp",
+            "lines":["10775"],
+            "functions":["CWebServer::GetFloorplanImage"]
+        }
+        ]
+    },
+    "cwe-89-2": {
+        "cwe-89": [
+            {
+            "file":"plugins\\sql.c",
+            "lines":["1249-1250,1258"],
+            "functions":["sql_auxprop_store"]
+        }
+        ]
+    },
+    "cwe-89-3": {
+        "cwe-89": [
+            {
+            "file":"servers\\slapd\\back-sql\\search.c",
+            "lines":["465,469,473,480.481,483,491-492,494,502-503,505,507","568","593","618","1352,1382"],
+            "functions":["backsql_process_sub_filter","backsql_process_sub_filter","backsql_process_sub_filter","backsql_process_sub_filter","equality_match:"]
+        }
+        ]
+    },
+    "cwe-89-4": {
+        "cwe-89": [
+            {
+            "file":"src/core/abstractsqlstorage.cpp",
+            "lines":["56"],
+            "functions":["AbstractSqlStorage::logDb"]
+        }
+        ]
+    }
+}
