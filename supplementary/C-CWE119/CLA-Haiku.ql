@@ -1,16 +1,17 @@
+
 import cpp
 
-class CWE190Vulnerability extends DivExpr {
-  CWE190Vulnerability() {
-    this.getLeftOperand() instanceof Literal and
-    this.getRightOperand() instanceof Literal and
-    this.getRightOperand().getValue() = "0"
-  }
-
-  string getFilePath() {
-    result = this.getLocation().getFile().getAbsolutePath()
-  }
-}
-
-from CWE190Vulnerability v
-select v.getFilePath()
+from FunctionCall fc, Variable v
+where
+  (
+    fc.getTarget().hasName("strcpy") or
+    fc.getTarget().hasName("strncpy") or
+    fc.getTarget().hasName("gets") or
+    fc.getTarget().hasName("scanf") or
+    fc.getTarget().hasName("sprintf") or
+    fc.getTarget().hasName("vsprintf") or
+    fc.getTarget().hasName("memcpy") or
+    fc.getTarget().hasName("memmove")
+  ) and
+  fc.getAnArgument().getType().getSize() < v.getType().getSize()
+select fc.getFile().getAbsolutePath(), fc
