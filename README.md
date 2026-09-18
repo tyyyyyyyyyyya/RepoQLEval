@@ -70,9 +70,16 @@ All three probes share a **10-round repair loop** (5 rounds for DeepSeek-Reasone
 - Generated queries are saved as `test.ql` and executed with `codeql query run --database=test-db test.ql`.
 
 ### 3. Result Analysis (`results/`)
-- `results_ext.py` — batch-extracts CodeQL outputs from per-project `.txt` logs into `codeql_batch_results.json`.
+This repository includes helper scripts for running and evaluating CodeQL queries.
+
+- `run_codeql_query.py` — Runs CodeQL queries on a CodeQL database and saves the query output.
+- `parse_codeql_results.py` — Processes CodeQL output files and converts detected file information into JSON format for evaluation.
+- `evaluate_results.py` — Compares predicted vulnerable files with ground truth annotations.
 - `codeql_compile_error_classifier.py` — classifies repair-log compilation errors into diagnostic categories (syntax/parsing, import/module resolution, name/API resolution, type compatibility, binding/range restriction, class/predicate structure, declaration/query-shape, metadata/result-shape) and produces CSV/JSON/Markdown reports.
-- `save_history.py` — copies per-project `history.json`, `*.txt`, and `test.ql` artifacts into a target directory.
+
+
+
+
 
 
 ## 🔍 Dataset Description
