@@ -41,11 +41,6 @@
             "sdks\\python\\hatchet_sdk\\v0\\clients\\rest\\api_client.py"
         ]
     },
-    "cwe-22-3": {
-        "cwe-22": [
-            "modules\\onnx_impl\\ui.py"
-        ]
-    },
     "cwe-22-4": {
         "cwe-22": [
             "flask_webgoat\\actions.py"
@@ -76,11 +71,6 @@
             "data_gen.py",
             "inference.py",
             "ingest_docs.py"
-        ]
-    },
-    "cwe-502-2": {
-        "cwe-502": [
-            "main\\engines\\evaluate.py"
         ]
     },
     "cwe-502-3": {
@@ -183,19 +173,9 @@
             "noncompliant.py"
         ]
     },
-    "cwe-89-1": {
-        "cwe-89": [
-            "artefacts\\syn_tm.py"
-        ]
-    },
     "cwe-89-2": {
         "cwe-89": [
             "get_patients_fit_for_als_trials_with_guardrails.py"
-        ]
-    },
-    "cwe-89-3": {
-        "cwe-89": [
-            "posthog\\api\\activity_log.py"
         ]
     },
     "cwe-89-4": {
@@ -212,11 +192,6 @@
         "cwe-89": [
             "flask_webgoat\\actions",
             "flask_webgoat\\auth.py.py"
-        ]
-    },
-    "cwe-89-7": {
-        "cwe-89": [
-            "sqli\\dao\\student.py"
         ]
     },
     "cwe-89-8": {
@@ -253,10 +228,4 @@
         "cwe-94": [
             "lockdoors\\infogathering.py"
         ]
-    },
-    "cwe-94-5": {
-        "cwe-94": [
-            "factool\\factool\\math\\tool.py"
-        ]
     }
-}
